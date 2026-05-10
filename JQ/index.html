@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>jQuery Login</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+    <h2>Login</h2>
+
+    <input type="text"
+    id="user"
+    placeholder="Username">
+
+    <br><br>
+
+    <input type="password"
+    id="pass"
+    placeholder="Password">
+
+    <br><br>
+
+    <button id="login">
+        Login
+    </button>
+
+    <p id="msg"></p>
+
+<script>
+
+$(document).ready(function(){
+
+    $("#login").click(function(){
+
+        let u = $("#user").val();
+        let p = $("#pass").val();
+
+        if(u=="admin" && p=="1234"){
+            $("#msg").html("Login Successful");
+        }
+        else{
+            $("#msg").html("Invalid Login");
+        }
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>

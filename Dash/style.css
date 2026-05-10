@@ -1,0 +1,28 @@
+body{
+    font-family: Arial;
+}
+
+/* Sidebar */
+.sidebar{
+    height:100vh;
+    background:#212529;
+}
+
+/* Sidebar Links */
+.sidebar a{
+    display:block;
+    color:white;
+    text-decoration:none;
+    padding:10px;
+}
+
+/* Hover Effect */
+.sidebar a:hover{
+    background:blue;
+}
+
+/* Card Hover */
+.card:hover{
+    transform:scale(1.03);
+    transition:0.3s;
+}

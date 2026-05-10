@@ -1,0 +1,39 @@
+<h2>Register</h2>
+
+<input type="text"
+placeholder="Username"
+[(ngModel)]="regUser">
+
+<br><br>
+
+<input type="password"
+placeholder="Password"
+[(ngModel)]="regPass">
+
+<br><br>
+
+<button (click)="register()">
+Register
+</button>
+
+<hr>
+
+<h2>Login</h2>
+
+<input type="text"
+placeholder="Username"
+[(ngModel)]="logUser">
+
+<br><br>
+
+<input type="password"
+placeholder="Password"
+[(ngModel)]="logPass">
+
+<br><br>
+
+<button (click)="login()">
+Login
+</button>
+
+<p>{{message}}</p>

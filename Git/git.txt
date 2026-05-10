@@ -1,0 +1,21 @@
+# Configure Git
+git config --global user.name "Your Name"
+git config --global user.email "your@gmail.com"
+
+# Initialize Git
+git init
+
+# Add Files
+git add .
+
+# Commit Files
+git commit -m "First Commit"
+
+# Connect GitHub Repository
+git remote add origin https://github.com/yourusername/repository-name.git
+
+# Rename Branch
+git branch -M main
+
+# Push Code to GitHub
+git push -u origin main
